@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carculator</title>
+  <link rel="stylesheet" type="text/css" href="/loader.css" />
+  <script type="text/javascript" 
+  src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9ac3c4208f9d19c2d0f5d807cb8e4b36&libraries=services,clusterer,drawing">
+</script>
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="loading-bg">
+      <div class=" loading">
+        <div class="effect-1 effects"></div>
+        <div class="effect-2 effects"></div>
+        <div class="effect-3 effects"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    const loaderColor = localStorage.getItem('loader-bg') || '#FFFFFF'
+    const primaryColor = localStorage.getItem('app-preset') || '#2065D1'
+
+    if (loaderColor)
+      document.documentElement.style.setProperty('--loader-bg', loaderColor)
+
+    if (primaryColor)
+      document.documentElement.style.setProperty('--loader-color', primaryColor)
+  </script>
+  <!-- Daum 주소 검색 API 스크립트 -->
+  <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
+  <!-- Vue.js 및 애플리케이션 스크립트 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- 토스페이먼츠 -->
+  <script src="https://js.tosspayments.com/v1/payment-widget"></script>
+  
+</body>
+
+</html>

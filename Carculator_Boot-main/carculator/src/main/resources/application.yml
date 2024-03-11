@@ -1,0 +1,32 @@
+  jwt:
+    secretKey: SGVsbG8gV29ybGQhsdfawefasdfawefsafwefasdfqwf1f1f12f1zfsadfazvzxbjyiytu
+
+    access:
+      expiration: 3600000 # 1시간(60분) (1000L(ms -> s) * 60L(s -> m) * 60L(m -> h))
+      header: Authorization
+
+    refresh:
+      expiration: 1209600000 #  (1000L(ms -> s) * 60L(s -> m) * 60L(m -> h) * 24L(h -> 하루) * 14(2주))
+      header: Authorization-refresh
+  oauth:
+    kakao:
+      client_id: 436d8f6410623a42b526917c3dfa987c
+      url:
+        auth: https://kauth.kakao.com
+        api: https://kapi.kakao.com
+    naver:
+      client_id: wYs9ns7A19T4BJj84YAd
+      client_secret : mNHqdNBuzZ
+      redirect_uri : http://localhost:8888/naverLogin/callback
+    git:
+      client_id: Iv1.be23e54ad1a79529
+      client_secret: 5d88163c6cfb1b0884365f91be225892fdac9ebd
+    google:
+      client_id: 857445034554-eti63jl7ed0vrtdtnr6a0mu5f6p54ia5.apps.googleusercontent.com
+      client_secret: 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
+      redirect_uri: http://localhost:8888/googleLogin/callback
+
+  data:
+    redis:
+      port: 6379
+      host: localhost

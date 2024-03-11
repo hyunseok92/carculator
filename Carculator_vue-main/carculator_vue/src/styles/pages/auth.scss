@@ -1,0 +1,20 @@
+.auth-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  block-size: 100%;
+  inline-size: 100%;
+  
+
+.v-card-title {
+    font-size: 24px;
+  }
+}
+
+.auth-wrapper-v2 {
+  min-block-size: 100dvh;
+}
+
+.v-application__wrap{
+  justify-content: center;
+}
