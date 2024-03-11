@@ -8,7 +8,6 @@
 [ 프로젝트 포트폴리오 링크 ]
 </a> <-- Click!</h1>
 
-
 ## Back-End 사용기술
 `Java` `SpringBoot (MVC model 2)` `JPA` `QueryDSL` `JPQL` `JWT` `Gradle` `Python` `Oracle DB`
 
