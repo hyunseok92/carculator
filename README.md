@@ -4,7 +4,8 @@
 
 ![image](https://github.com/doowon13/Car-culator/assets/83566946/bd1fe9d4-3273-490b-81a6-39cd534ae6a3)
 
-
+### [ 프로젝트 포트폴리오 링크 ]
+https://www.canva.com/design/DAF3PaeUjOw/7rTUdHqu_TxzK7VJ19XDpw/view?utm_content=DAF3PaeUjOw&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 
 ## 프로젝트 기능
