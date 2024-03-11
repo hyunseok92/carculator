@@ -9,6 +9,18 @@
 </a> <-- Click!</h1>
 
 
+## Back-End 사용기술
+`Java` `SpringBoot (MVC model 2)` `JPA` `QueryDSL` `JPQL` `JWT` `Gradle` `Python` `Oracle DB`
+
+## Front-End 사용기술
+`Vue.js & Vuetify` `Axios` `TypeScript` `JavaScript` `Node.js`
+
+## AI 사용기술
+`Ultralytics` `TensorFlow` `OpenCV` `Pytorch` `Google Colab`
+
+## DB ERD Diagram
+![424ae025-f606-4d1e-b6ba-56e50d3f593b](https://github.com/doowon13/Car-culator/assets/83566946/45ccd44b-b743-4058-9771-90339101b85a)
+
 ## 프로젝트 기능
 
 ### 🛡 JWT, OAuth2 소셜로그인 (Kakao, Naver, Google, Git)
@@ -96,14 +108,4 @@
 <hr style="text-align:center; width:45%;">
 <br>
 
-## Back-End 사용기술
-`Java` `SpringBoot (MVC model 2)` `JPA` `QueryDSL` `JPQL` `JWT` `Gradle` `Python` `Oracle DB`
 
-## Front-End 사용기술
-`Vue.js & Vuetify` `Axios` `TypeScript` `JavaScript` `Node.js`
-
-## AI 사용기술
-`Ultralytics` `TensorFlow` `OpenCV` `Pytorch` `Google Colab`
-
-## DB ERD Diagram
-![424ae025-f606-4d1e-b6ba-56e50d3f593b](https://github.com/doowon13/Car-culator/assets/83566946/45ccd44b-b743-4058-9771-90339101b85a)
