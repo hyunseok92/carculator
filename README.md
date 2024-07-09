@@ -20,6 +20,9 @@
 ## DB ERD Diagram
 ![424ae025-f606-4d1e-b6ba-56e50d3f593b](https://github.com/doowon13/Car-culator/assets/83566946/45ccd44b-b743-4058-9771-90339101b85a)
 
+## 담당 Class Diagram
+![화면 캡처 2024-07-10 020513](https://github.com/hyunseok92/carculator/assets/143330992/fdbd8ae8-2088-4123-83b0-8a65ca53fc29)
+
 ## 프로젝트 기능
 
 ### 🛡 JWT, OAuth2 소셜로그인 (Kakao, Naver, Google, Git)
